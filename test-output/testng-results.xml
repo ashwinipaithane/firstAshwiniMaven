@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Get Select Box menu:5]]>
+    </line>
+    <line>
+      <![CDATA[Next Page verify text:DESCRIPTION]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-11-11T12:27:35 IST" name="Default suite" finished-at="2022-11-11T12:27:57 IST" duration-ms="22343">
+    <groups>
+    </groups>
+    <test started-at="2022-11-11T12:27:35 IST" name="Default test" finished-at="2022-11-11T12:27:57 IST" duration-ms="22343">
+      <class name="TestCases.InventoryPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.InventoryPageTest@4b8ee4de]" started-at="2022-11-11T12:27:35 IST" name="setup" finished-at="2022-11-11T12:27:42 IST" duration-ms="6486" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="removeTest()[pri:0, instance:TestCases.InventoryPageTest@4b8ee4de]" started-at="2022-11-11T12:27:42 IST" name="removeTest" finished-at="2022-11-11T12:27:43 IST" duration-ms="1379" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestCases.InventoryPageTest@4b8ee4de]" started-at="2022-11-11T12:27:43 IST" name="closeBrowser" finished-at="2022-11-11T12:27:43 IST" duration-ms="371" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.InventoryPageTest@4b8ee4de]" started-at="2022-11-11T12:27:43 IST" name="setup" finished-at="2022-11-11T12:27:46 IST" duration-ms="3054" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="selectBoxTest()[pri:0, instance:TestCases.InventoryPageTest@4b8ee4de]" started-at="2022-11-11T12:27:46 IST" name="selectBoxTest" finished-at="2022-11-11T12:27:53 IST" duration-ms="6371" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Get Select Box menu:5]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- selectBoxTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestCases.InventoryPageTest@4b8ee4de]" started-at="2022-11-11T12:27:53 IST" name="closeBrowser" finished-at="2022-11-11T12:27:53 IST" duration-ms="344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.InventoryPageTest@4b8ee4de]" started-at="2022-11-11T12:27:53 IST" name="setup" finished-at="2022-11-11T12:27:57 IST" duration-ms="3300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="gotonextpageTest()[pri:0, instance:TestCases.InventoryPageTest@4b8ee4de]" started-at="2022-11-11T12:27:57 IST" name="gotonextpageTest" finished-at="2022-11-11T12:27:57 IST" depends-on-methods="TestCases.InventoryPageTest.selectBoxTest" duration-ms="777" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Next Page verify text:DESCRIPTION]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- gotonextpageTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestCases.InventoryPageTest@4b8ee4de]" started-at="2022-11-11T12:27:57 IST" name="closeBrowser" finished-at="2022-11-11T12:27:57 IST" duration-ms="175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestCases.InventoryPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
